@@ -1,0 +1,23 @@
+body {
+	width: 960px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: 50px;
+}
+h1 {
+	font-size: 2em;
+	width: 300px;
+	background-color: #666;
+	text-align: center;
+}
+p {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 50%;
+	display: inline-block;
+	float:right;
+}
+p:nth-child(2n) {
+	float: left;
+}
